@@ -1,0 +1,2 @@
+2016-01-19 15:25:35,380 TRACE m.TestRunner [main] test2(main.TestJunit): expected:<2> but was:<0>
+2016-01-19 15:25:35,385 TRACE m.TestRunner [main] false
