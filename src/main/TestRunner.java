@@ -10,7 +10,7 @@ public class TestRunner {
 	private final static Logger log = LogManager.getLogger(TestRunner.class);
 	
 	public static void main(String[] args){
-		Result result = JUnitCore.runClasses(TestJunit.class);
+		Result result = JUnitCore.runClasses(JunitTestSuite.class);
 		for(Failure failure: result.getFailures()){
 			log.trace(failure.toString());
 		}
